@@ -1,0 +1,4 @@
+nxj:
+  build: .
+  volumes:
+    - myapp:/usr/src/myapp
