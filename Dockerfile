@@ -15,4 +15,4 @@ ENV PATH $PATH:/usr/lib/leJOS_NXJ/bin
 COPY myapp /usr/src/myapp
 WORKDIR /usr/src/myapp
 
-CMD nxjc Main.java && nxjlink -o Main.nxj Main
+CMD nxjc Main.java && nxjlink -o Main.nxj Main && nxjupload -r Main.nxj
